@@ -42,10 +42,21 @@ class Project
 end
 
 PROJECTS = {
-  conemo: 1020072
+  conemo: 1020072,
+  lutgendorf: 927066,
+  marigold: 1392482,
+  moodtech: 820789,
+  munoz: 1411440,
+  rogalski: 927064,
+  sis: 1267714,
+  sunnyside: 1048158,
+  swartz: 1417474
 }
 OWNERS = {
-  ecf: "ECF"
+  cjb: "CJB",
+  ecf: "ECF",
+  ems: "EMS",
+  msw: "MSW"
 }
 
 #puts Bug.cycle_times_in_minutes(project: PROJECTS[:conemo], owner: OWNERS[:ecf], period: PERIOD[:past_six_months])
